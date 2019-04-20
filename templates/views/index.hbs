@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>weather yo</title>
+  <link rel="stylesheet" href="/css/styles.css"></link>
+</head>
+<body>
+  {{>header}}
+  <!-- <p>{{about}}</p> -->
+  <p>search some weather</p>
+  <form method="GET" action="/weather">
+    <input type="text" name="search"/>
+    <button type="submit">search</button>
+  </form>
+  <p id="response"></p>
+  <script src="/js/script.js"></script>
+</body>
+</html>
